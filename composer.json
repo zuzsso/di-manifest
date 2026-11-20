@@ -11,8 +11,9 @@
   "minimum-stability": "stable",
   "config": {
     "platform": {
-      "php": "7.4.28"
-    }
+      "php": "8.3.0"
+    },
+    "sort-packages": true
   },
   "autoload": {
     "psr-4": {
@@ -20,7 +21,7 @@
     }
   },
   "require": {
-    "php-di/php-di": "^6.2"
+    "php-di/php-di": "^7.0"
   },
   "require-dev": {
     "phpmd/phpmd": "@stable",
